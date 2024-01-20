@@ -1,0 +1,427 @@
+.min-h-screen{
+    min-height: 100vh;
+    margin: 0 140px;
+}
+
+.section0{
+    height: 160vh;
+
+}
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+     display:flex;
+}
+
+.item-centre{
+    align-items: center;
+  
+}
+
+.text-blue{
+    color: rgb(72, 101, 232);
+    font-size: larger;
+  
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-centre{
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+}
+
+.navbar p{
+        
+        list-style: none;
+        margin-right: 60px;
+        display: block;
+       color:rgba(1, 1, 14, 0.952) ;
+       font-size: larger;
+}
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+    color: white;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+    margin-top: 25px;
+    position: relative;
+}
+.topright img{
+    width: 500px;
+}
+
+
+
+.section1{
+   height: 125vh;
+   display: block;
+}
+
+.section1 h1{
+    font-size: 1.9rem;
+    font-family: sans-serif;
+}
+
+.section2 h1{
+    color:rgba(232, 200, 21, 0.865);
+}
+.flex-col{
+    flex-direction: column;
+}
+.section2{
+    height: 120vh;
+    padding-left: 63px;
+    padding-right: 63px;
+    max-height: 50%;
+}
+
+.bodycss{
+    background-color: rgba(1, 1, 14, 0.952) ;
+    
+}
+header{
+    background-color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 55vh;
+    border: 1px solid grey;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    position: relative;
+}
+
+.footer{
+   overflow: hidden;
+   display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.logo2{
+  margin: auto;
+  width: 250px;
+  height: 130px;
+  padding: 10px;
+}
+
+.summary{
+    width:700px;
+    height: 100px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    color: white;
+    bottom: 10px;
+     padding: 50px;
+   margin-bottom: 45px;
+}
+
+.fa-phone{
+    margin-right: 10px;
+    font-size: larger;
+}
+
+.div-container{
+    width: 210px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px 1rem;   
+}
+
+.div-box img{
+    width: 180px;
+    height: 50px;
+    padding: 0 40px;
+    margin: 12px;
+    align-self: center;
+    border-radius: 10px;
+    background-color: rgb(62, 61, 61);
+    border: 1px solid rgba(248, 245, 245, 0.92);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(101, 100, 100,0.36)
+}
+
+.para1 h3{
+    color: rgba(255, 255, 255, 0.749);
+    padding: 50px 95px;
+    
+}
+
+.module{
+    height: 680vh;
+    font-family: sans-serif;
+}
+
+.module h1{
+    color: white;
+    font-size: 1.8rem;
+}
+.module p{
+    color: rgba(255, 255, 255, 0.667);
+    text-align: center;
+    margin: 40px 0;
+}
+
+.courses{
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.introduction{
+    width: 30vw;
+    height: 40vh;
+    color: white;
+    border: 1px solid rgba(248, 245, 245, 0.92);
+    border-radius: 30px;
+    line-height: 2rem;
+    position: relative;
+    padding: 30px 90px;
+    background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+    }
+
+    .introduction h3{
+       font-size: 2rem;
+     }
+
+        .Marketing-Funnel{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            position: absolute;
+            left: 750px;
+            top: 660vh;
+            padding: 30px 90px;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Marketing-Funnel h3{
+           font-size: 2rem;
+         }
+
+         .Designing-Skills{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+           position: absolute;
+           top: 710vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Designing-Skills h3{
+           font-size: 2rem;
+         }
+
+         .Blogging-And-Bloggers{
+            width: 30vw;
+            height: 42vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            left: 750px;
+            top: 760vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Blogging-And-Bloggers h3{
+           font-size: 2rem;
+         }
+
+        .Website-Development{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            top: 800vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Website-Development h3{
+           font-size: 2rem;
+         }
+         
+         .Building-A-Website{
+            width: 30vw;
+            height: 45vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            left: 750px;
+            top: 850vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Building-A-Website h3{
+           font-size: 2rem;
+         }
+
+         .Search-Engine-Optimisation{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            top: 900vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Search-Engine-Optimisation h3{
+           font-size: 2rem;
+         }
+
+         .Setting-My-Business-Setup{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            left: 750px;
+            top: 945vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Setting-My-Business-Setup h3{
+           font-size: 2rem;
+         }
+
+         .Strategy{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            top: 990vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Strategy h3{
+           font-size: 2rem;
+         }
+
+         .Organic{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            left: 750px;
+            top: 1040vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Organic h3{
+           font-size: 2rem;
+         }
+
+         .Inorganic{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            top: 1090vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Inorganic h3{
+           font-size: 2rem;
+         }
+
+         .Google-ADwords{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            left: 750px;
+            top: 1140vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.669));
+        }
+        
+         .Google-ADwords h3{
+           font-size: 2rem;
+         }
+
+         .Google-Analytics{
+            width: 30vw;
+            height: 40vh;
+            color: white;
+            border: 1px solid rgba(248, 245, 245, 0.92);
+            border-radius: 30px;
+            line-height: 1.8rem;
+            padding: 30px 90px;
+            position: absolute;
+            top: 1190vh;
+            background: linear-gradient(to right,rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgb(225, 0, 0,0),rgba(57, 143, 241, 0.598));
+        }
+        
+         .Google-Analytics h3{
+           font-size: 2rem;
+         }
